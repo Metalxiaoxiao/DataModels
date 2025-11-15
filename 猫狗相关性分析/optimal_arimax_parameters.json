@@ -1,0 +1,38 @@
+{
+  "cat_model": {
+    "order": [
+      2,
+      1,
+      1
+    ],
+    "predictors": [
+      "Pet_Penetration_Rate",
+      "Per_Capita_GDP",
+      "Disposable_Income",
+      "Aging_Rate"
+    ],
+    "aic": 58.71410120716136,
+    "bic": 55.58960450663417,
+    "validation": [
+      true,
+      "True"
+    ]
+  },
+  "dog_model": {
+    "order": [
+      0,
+      1,
+      1
+    ],
+    "predictors": [
+      "Pet_Penetration_Rate",
+      "Urbanization_Rate"
+    ],
+    "aic": 76.2849311533278,
+    "bic": 74.7226828030642,
+    "validation": [
+      true,
+      "True"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                      y   No. Observations:                    5
+Model:               SARIMAX(1, 1, 0)   Log Likelihood                  16.546
+Date:                Sun, 16 Nov 2025   AIC                            -23.092
+Time:                        03:27:27   BIC                            -26.160
+Sample:                             0   HQIC                           -29.825
+                                  - 5                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept      0.7949      0.018     45.086      0.000       0.760       0.829
+x1            -0.3127      0.029    -10.802      0.000      -0.369      -0.256
+x2            -0.0058      0.028     -0.209      0.834      -0.060       0.048
+ar.L1         -0.9310      0.016    -57.230      0.000      -0.963      -0.899
+sigma2       8.87e-06   9.75e-05      0.091      0.928      -0.000       0.000
+===================================================================================
+Ljung-Box (L1) (Q):                   2.49   Jarque-Bera (JB):                 0.45
+Prob(Q):                              0.11   Prob(JB):                         0.80
+Heteroskedasticity (H):                nan   Skew:                             0.38
+Prob(H) (two-sided):                   nan   Kurtosis:                         1.54
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 3.11e+16. Standard errors may be unstable.
